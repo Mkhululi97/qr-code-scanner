@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="html5-qrcode.min.js" charset="utf-8" defer></script> -->
+
+    <script src="QRCodeApp.js" charset="utf-8"></script>
+    <script src="QRCodeApp.dom.js" charset="utf-8" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"
+      integrity="sha512-r6rDA7W6ZeQhvl8S7yRVQUKVHdexq+GAlNkNNqVC7YyIV+NwqCTJe2hDWCiffTyRNOeGEzRRJ9ifvRm/HCzGYg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>QR Code Scanner</title>
+  </head>
+  <body>
+    <h1>
+      Changes body background color, switches between Red Blue and Green based
+      on counter
+    </h1>
+    <div class="color-div">
+      <div style="width: 500px" id="reader"></div>
+      <p>counter: <span class="number">0</span></p>
+    </div>
+  </body>
+</html>
